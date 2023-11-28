@@ -65,7 +65,6 @@ def predict():
     LOG.info(f"predict.prediction: \n{prediction}")
 
     # TO DO:  Log the output prediction value
-    LOG.info("_output prediction: {prediction}")
     return jsonify({'prediction': prediction})
 
 if __name__ == "__main__":
